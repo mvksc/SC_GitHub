@@ -68,7 +68,7 @@ public class OneFragment extends Fragment {
                 @Override
                 protected String doInBackground(String... params) {
 
-                    return allCommand.GET_OK_HTTP_SendData("http://www.thailive.net/ios/get_tableplay.php?date="+ mData +"&uuid=358918050979765");
+                    return allCommand.GET_OK_HTTP_SendData("");
                 }
 
                 @Override
